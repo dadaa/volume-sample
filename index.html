@@ -6,26 +6,34 @@
     <title>Volume sample</title>
     <script src="main.js" defer></script>
     <style>
-    html, body, section {
+    html, body {
       overflow: hidden;
       margin: 0;
       padding: 0;
       width: 100%;
       height: 100%;
       background-color: #f9f9fa;
-      color: #38383d;
-      font-weight: 100;
-      font-size: 10vw;
     }
 
     section {
+      width: 100%;
+      background-color: #c069ff;
+    }
+
+    label {
+      position: absolute;
+      top: 0;
+      height: 100%;
+      width: 100%;
       display: flex;
       align-items: center;
       justify-content: center;
+      color: gray;
     }
-    </style>
+</style>
   </head>
   <body>
-    <section id="value">0</section>
+    <section></section>
+    <label>volume</label>
   </body>
 </html>
